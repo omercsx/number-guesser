@@ -19,6 +19,7 @@ const compareGuesses = (userGuess, computerGuess, secretTargetNumber) => {
 
 const updateScore = winner => {
     winner = winner.toLowerCase();
+    
     if (winner === 'human') {
         humanScore += 1;
     } else if (winner === 'computer') {
